@@ -1,0 +1,303 @@
+{
+  "name": "capcut_1031_4",
+  "video": "capcut_video/1031 (4).mp4",
+  "audio": "video",
+  "size": [
+    540,
+    540
+  ],
+  "duration": 16.57,
+  "replay": {
+    "before_s": 1.5
+  },
+  "imported": {
+    "cuts": 17,
+    "flashes": 17,
+    "fade_in": 0.5,
+    "black_tail_s": 1.53
+  },
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.43,
+      "source": "replay",
+      "replay_at": -1.5,
+      "speed": 0.46,
+      "effects": [
+        {
+          "type": "fade_in",
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "start": 7.43,
+      "end": 7.9,
+      "source": "replay",
+      "replay_at": 0.0,
+      "effects": [
+        {
+          "type": "flash"
+        },
+        {
+          "type": "vignette",
+          "strength": 0.85
+        }
+      ]
+    },
+    {
+      "start": 7.9,
+      "end": 8.37,
+      "source": "replay",
+      "replay_at": 0.9,
+      "effects": [
+        {
+          "type": "flash"
+        },
+        {
+          "type": "vignette",
+          "strength": 0.85
+        }
+      ]
+    },
+    {
+      "start": 8.37,
+      "end": 8.83,
+      "source": "replay",
+      "replay_at": 0.3,
+      "effects": [
+        {
+          "type": "flash"
+        },
+        {
+          "type": "vignette",
+          "strength": 0.85
+        }
+      ]
+    },
+    {
+      "start": 8.83,
+      "end": 9.27,
+      "source": "replay",
+      "replay_at": 1.2,
+      "effects": [
+        {
+          "type": "flash"
+        },
+        {
+          "type": "vignette",
+          "strength": 0.85
+        }
+      ]
+    },
+    {
+      "start": 9.27,
+      "end": 9.73,
+      "source": "replay",
+      "replay_at": 0.6,
+      "effects": [
+        {
+          "type": "flash"
+        },
+        {
+          "type": "vignette",
+          "strength": 0.85
+        }
+      ]
+    },
+    {
+      "start": 9.73,
+      "end": 10.2,
+      "source": "replay",
+      "replay_at": 1.4,
+      "effects": [
+        {
+          "type": "flash"
+        },
+        {
+          "type": "vignette",
+          "strength": 0.85
+        }
+      ]
+    },
+    {
+      "start": 10.2,
+      "end": 10.67,
+      "source": "replay",
+      "replay_at": -0.3,
+      "effects": [
+        {
+          "type": "flash"
+        },
+        {
+          "type": "vignette",
+          "strength": 0.85
+        }
+      ]
+    },
+    {
+      "start": 10.67,
+      "end": 11.1,
+      "source": "replay",
+      "replay_at": 1.0,
+      "effects": [
+        {
+          "type": "flash"
+        },
+        {
+          "type": "vignette",
+          "strength": 0.85
+        }
+      ]
+    },
+    {
+      "start": 11.1,
+      "end": 11.57,
+      "source": "replay",
+      "replay_at": 0.2,
+      "effects": [
+        {
+          "type": "flash"
+        },
+        {
+          "type": "vignette",
+          "strength": 0.85
+        }
+      ]
+    },
+    {
+      "start": 11.57,
+      "end": 12.03,
+      "source": "replay",
+      "replay_at": 0.8,
+      "effects": [
+        {
+          "type": "flash"
+        },
+        {
+          "type": "vignette",
+          "strength": 0.85
+        }
+      ]
+    },
+    {
+      "start": 12.03,
+      "end": 12.5,
+      "source": "replay",
+      "replay_at": 0.5,
+      "effects": [
+        {
+          "type": "flash"
+        },
+        {
+          "type": "vignette",
+          "strength": 0.85
+        }
+      ]
+    },
+    {
+      "start": 12.5,
+      "end": 12.97,
+      "source": "replay",
+      "replay_at": 1.3,
+      "effects": [
+        {
+          "type": "flash"
+        },
+        {
+          "type": "vignette",
+          "strength": 0.85
+        }
+      ]
+    },
+    {
+      "start": 12.97,
+      "end": 13.4,
+      "source": "replay",
+      "replay_at": 0.0,
+      "effects": [
+        {
+          "type": "flash"
+        },
+        {
+          "type": "vignette",
+          "strength": 0.85
+        }
+      ]
+    },
+    {
+      "start": 13.4,
+      "end": 13.87,
+      "source": "replay",
+      "replay_at": 0.9,
+      "effects": [
+        {
+          "type": "flash"
+        },
+        {
+          "type": "vignette",
+          "strength": 0.85
+        }
+      ]
+    },
+    {
+      "start": 13.87,
+      "end": 14.33,
+      "source": "replay",
+      "replay_at": 0.3,
+      "effects": [
+        {
+          "type": "flash"
+        },
+        {
+          "type": "vignette",
+          "strength": 0.85
+        }
+      ]
+    },
+    {
+      "start": 14.33,
+      "end": 14.77,
+      "source": "replay",
+      "replay_at": 1.2,
+      "effects": [
+        {
+          "type": "flash"
+        },
+        {
+          "type": "vignette",
+          "strength": 0.85
+        }
+      ]
+    },
+    {
+      "start": 14.77,
+      "end": 15.03,
+      "source": "replay",
+      "replay_at": 0.6,
+      "effects": [
+        {
+          "type": "flash"
+        },
+        {
+          "type": "vignette",
+          "strength": 0.85
+        },
+        {
+          "type": "fade_out",
+          "duration": 0.26
+        }
+      ]
+    },
+    {
+      "start": 15.03,
+      "end": 16.57,
+      "source": "color",
+      "color": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

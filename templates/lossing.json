@@ -1,0 +1,142 @@
+{
+  "name": "lossing",
+  "video": "capcut_video/green/lossing_green.mp4",
+  "audio": "video",
+  "size": [
+    540,
+    540
+  ],
+  "duration": 16.57,
+  "replay": {
+    "before_s": 1.5
+  },
+  "key": {
+    "ref_value": 230
+  },
+  "imported": {
+    "mode": "green",
+    "spaces": 17,
+    "slots": 8
+  },
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.43,
+      "source": "keyed",
+      "slot_hue": 60.0,
+      "replay_at": -1.7
+    },
+    {
+      "start": 7.43,
+      "end": 7.9,
+      "source": "keyed",
+      "slot_hue": 47.0,
+      "replay_at": -0.0
+    },
+    {
+      "start": 7.9,
+      "end": 8.37,
+      "source": "keyed",
+      "slot_hue": 50.0,
+      "replay_at": 0.9
+    },
+    {
+      "start": 8.37,
+      "end": 8.83,
+      "source": "keyed",
+      "slot_hue": 52.0,
+      "replay_at": 0.3
+    },
+    {
+      "start": 8.83,
+      "end": 9.27,
+      "source": "keyed",
+      "slot_hue": 56.0,
+      "replay_at": 1.2
+    },
+    {
+      "start": 9.27,
+      "end": 9.73,
+      "source": "keyed",
+      "slot_hue": 58.0,
+      "replay_at": 0.6
+    },
+    {
+      "start": 9.73,
+      "end": 10.2,
+      "source": "keyed",
+      "slot_hue": 61.0,
+      "replay_at": 1.4
+    },
+    {
+      "start": 10.2,
+      "end": 10.67,
+      "source": "keyed",
+      "slot_hue": 64.0,
+      "replay_at": -0.3
+    },
+    {
+      "start": 10.67,
+      "end": 11.1,
+      "source": "keyed",
+      "slot_hue": 68.0,
+      "replay_at": 1.0
+    },
+    {
+      "start": 11.1,
+      "end": 11.57,
+      "source": "keyed",
+      "slot_hue": 47.0,
+      "replay_at": 0.0
+    },
+    {
+      "start": 11.57,
+      "end": 12.03,
+      "source": "keyed",
+      "slot_hue": 50.0,
+      "replay_at": 0.9
+    },
+    {
+      "start": 12.03,
+      "end": 12.5,
+      "source": "keyed",
+      "slot_hue": 52.0,
+      "replay_at": 0.3
+    },
+    {
+      "start": 12.5,
+      "end": 12.97,
+      "source": "keyed",
+      "slot_hue": 56.0,
+      "replay_at": 1.2
+    },
+    {
+      "start": 12.97,
+      "end": 13.4,
+      "source": "keyed",
+      "slot_hue": 58.0,
+      "replay_at": 0.6
+    },
+    {
+      "start": 13.4,
+      "end": 13.87,
+      "source": "keyed",
+      "slot_hue": 61.0,
+      "replay_at": 1.4
+    },
+    {
+      "start": 13.87,
+      "end": 14.33,
+      "source": "keyed",
+      "slot_hue": 64.0,
+      "replay_at": -0.3
+    },
+    {
+      "start": 14.33,
+      "end": 16.57,
+      "source": "keyed",
+      "slot_hue": 67.0,
+      "replay_at": 1.0
+    }
+  ]
+}

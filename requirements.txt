@@ -1,0 +1,8 @@
+opencv-contrib-python>=4.10
+mediapipe>=0.10.30
+numpy>=1.26
+pygame-ce>=2.5
+imageio-ffmpeg>=0.5
+scikit-learn>=1.5
+joblib>=1.4
+Pillow>=10

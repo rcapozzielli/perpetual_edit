@@ -1,0 +1,83 @@
+{
+  "camera_index": 0,
+  "camera_backend": "msmf",
+  "camera_width": 1280,
+  "camera_height": 720,
+  "mirror": true,
+  "overlay_mode": "slot",
+  "pip": { "scale": 0.38, "corner": "bottom_right", "margin": 24 },
+  "global_cooldown_s": 15,
+  "smoothing": 0.5,
+  "pre_edit_sound": "sounds/pre.wav",
+  "post_edit_sound": "sounds/post.wav",
+  "pre_edit_duration": 0.6,
+  "volume": { "edit": 1.0, "sfx": 0.8 },
+  "label_duration_s": 1.5,
+
+  "auto_templates": true,
+  "exclude_templates": ["capcut_1031_4"],
+  "template_defaults": { "pre_edit_duration": 2.0, "pre_edit_sound": "sounds/loading.wav" },
+  "archive": { "enabled": true, "dir": "replays", "max_clips": 30, "mix": 0.25, "min_face_ratio": 0.6 },
+
+  "custom_models": {
+    "glasses": {
+      "classes": ["com_oculos", "sem_oculos"],
+      "features": ["appearance"],
+      "stable_prob": 0.75, "stable_frames": 8, "fresh_s": 2.0
+    }
+  },
+
+  "triggers": {
+    "mouth_open": {
+      "enabled": true, "threshold": 0.5, "hold_frames": 8, "cooldown_s": 15,
+      "label": "mouth open", "edits": ["@templates"]
+    },
+    "brows_up": {
+      "enabled": true, "threshold": 0.5, "hold_frames": 8, "cooldown_s": 15,
+      "label": "brows up", "edits": ["@templates"]
+    },
+    "thumbs_up": {
+      "enabled": true, "type": "gesture", "gesture": "Thumb_Up",
+      "threshold": 0.6, "hold_frames": 6, "cooldown_s": 15,
+      "label": "thumbs up", "edits": ["@templates"]
+    },
+    "peace": {
+      "enabled": true, "type": "gesture", "gesture": "Victory",
+      "threshold": 0.6, "hold_frames": 6, "cooldown_s": 15,
+      "label": "peace", "edits": ["@templates"]
+    },
+    "fist": {
+      "enabled": false, "type": "gesture", "gesture": "Closed_Fist",
+      "threshold": 0.6, "hold_frames": 6, "cooldown_s": 15,
+      "label": "fist", "edits": ["@templates"]
+    },
+    "eyes_closed": {
+      "enabled": true, "threshold": 0.6, "hold_frames": 20, "cooldown_s": 15,
+      "label": "eyes closed", "edits": ["@templates"]
+    },
+    "head_turn": {
+      "enabled": true, "side": "any", "threshold": 28, "hold_frames": 8, "cooldown_s": 15,
+      "label": "look away", "edits": ["@templates"]
+    },
+    "hand_near_face": {
+      "enabled": true, "threshold": 0.85, "hold_frames": 10, "cooldown_s": 15,
+      "label": "hand on face", "edits": ["@templates"]
+    },
+    "face_lost": {
+      "enabled": false, "threshold": 3, "hold_frames": 1, "cooldown_s": 15,
+      "label": "where did he go", "edits": ["@templates"]
+    },
+    "face_back": {
+      "enabled": true, "threshold": 2, "hold_frames": 2, "cooldown_s": 15,
+      "label": "he's back", "edits": ["@templates"]
+    },
+    "glasses_off": {
+      "enabled": true, "type": "custom", "model": "glasses",
+      "from": "com_oculos", "to": "sem_oculos",
+      "threshold": 0.7, "hold_frames": 3, "cooldown_s": 15,
+      "label": "off glasses", "edits": ["@templates"]
+    }
+  },
+
+  "edits": {}
+}

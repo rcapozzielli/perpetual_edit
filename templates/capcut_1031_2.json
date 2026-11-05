@@ -1,0 +1,35 @@
+{
+  "name": "capcut_1031_2",
+  "video": "capcut_video/1031 (2).mp4",
+  "audio": "video",
+  "size": [540, 960],
+  "duration": 10.43,
+  "hand_tuned": true,
+  "replay": { "before_s": 1.5 },
+  "segments": [
+    { "start": 0.0, "end": 4.3, "source": "replay", "replay_at": -1.5, "speed": 0.8,
+      "effects": [
+        { "type": "vignette", "strength": 0.85 },
+        { "type": "whip", "at": 2.45, "duration": 0.5, "direction": "left", "distance": 0.3, "blur": 0.3 },
+        { "type": "emoji", "emoji": "🫢", "wobble": 5, "keys": [ { "t": 0, "x": 0.5, "y": 0.8, "size": 0.18 } ] }
+      ] },
+    { "start": 4.3, "end": 6.23, "source": "replay", "replay_at": 0.2, "speed": 0.9,
+      "effects": [
+        { "type": "vignette", "strength": 0.85 },
+        { "type": "emoji", "emoji": "☠", "wobble": 4, "keys": [ { "t": 0, "x": 0.5, "y": 0.8, "size": 0.18 } ] }
+      ] },
+    { "start": 6.23, "end": 8.45, "source": "replay", "replay_at": 0.5, "speed": 0.6,
+      "effects": [
+        { "type": "fade_in", "duration": 0.3 },
+        { "type": "vignette", "strength": 0.85 },
+        { "type": "emoji", "emoji": "💀", "wobble": 4, "keys": [ { "t": 0, "x": 0.5, "y": 0.8, "size": 0.17 } ] }
+      ] },
+    { "start": 8.45, "end": 10.43, "source": "replay", "replay_at": -0.5, "speed": 0.7,
+      "effects": [
+        { "type": "whip", "duration": 0.3, "direction": "left", "distance": 0.4, "blur": 0.3 },
+        { "type": "vignette", "strength": 0.85 },
+        { "type": "emoji", "emoji": "💀", "spin": 30, "keys": [ { "t": 0, "x": 0.5, "y": 0.8, "size": 0.17 } ] },
+        { "type": "fade_out", "duration": 0.6 }
+      ] }
+  ]
+}

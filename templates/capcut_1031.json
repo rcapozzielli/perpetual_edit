@@ -1,0 +1,53 @@
+{
+  "name": "capcut_1031",
+  "video": "capcut_video/1031.mp4",
+  "audio": "video",
+  "size": [540, 720],
+  "duration": 8.8,
+  "hand_tuned": true,
+  "replay": { "before_s": 1.5 },
+  "segments": [
+    {
+      "start": 0.0, "end": 2.33, "source": "replay", "replay_at": -1.5, "speed": 1.0,
+      "effects": [
+        { "type": "fade_in", "duration": 1.05 },
+        { "type": "vignette", "strength": 0.6 },
+        { "type": "face_sticker", "emoji": "💔", "landmark": "nose_bridge", "scale": 0.14 },
+        { "type": "whip", "at": 2.0, "duration": 0.33, "mode": "out", "direction": "left", "distance": 1.0, "blur": 0.15 },
+        { "type": "emoji", "emoji": "😆", "at": 2.03, "duration": 0.3,
+          "keys": [
+            { "t": 0.0,  "x": 0.68, "y": 0.70, "size": 0.18, "rot": 20,  "blur": 0.35 },
+            { "t": 0.12, "x": 0.58, "y": 0.56, "size": 0.30, "rot": 0,   "blur": 0.25 },
+            { "t": 0.3,  "x": 0.47, "y": 0.37, "size": 0.42, "rot": -30, "blur": 0.10 }
+          ] }
+      ]
+    },
+    {
+      "start": 2.33, "end": 5.03, "source": "color", "color": [0, 0, 0],
+      "effects": [
+        { "type": "emoji", "emoji": "😆", "at": 0.0, "duration": 0.32,
+          "keys": [
+            { "t": 0.0,  "x": 0.47, "y": 0.37, "size": 0.42, "rot": -30,  "blur": 0.10 },
+            { "t": 0.18, "x": 0.48, "y": 0.45, "size": 0.30, "rot": -90,  "blur": 0.06 },
+            { "t": 0.32, "x": 0.50, "y": 0.50, "size": 0.23, "rot": -180, "blur": 0.03 }
+          ] },
+        { "type": "emoji", "emoji": "😛", "at": 0.32, "duration": 0.85, "wobble": 6,
+          "keys": [ { "t": 0.0, "x": 0.50, "y": 0.50, "size": 0.22 } ] },
+        { "type": "emoji", "emoji": "🧏", "at": 1.17, "duration": 1.5, "wobble": 4,
+          "keys": [
+            { "t": 0.0, "x": 0.55, "y": 0.49, "size": 0.23, "alpha": 1.0 },
+            { "t": 1.4, "x": 0.55, "y": 0.49, "size": 0.23, "alpha": 1.0 },
+            { "t": 1.5, "x": 0.56, "y": 0.50, "size": 0.21, "alpha": 0.0 }
+          ] }
+      ]
+    },
+    {
+      "start": 5.03, "end": 8.8, "source": "replay", "replay_at": -0.3, "speed": 0.6,
+      "effects": [
+        { "type": "whip", "duration": 0.25, "distance": 0.6, "blur": 0.25 },
+        { "type": "shake", "at": 0.15, "duration": 0.6, "amount": 0.03, "rotate": 5 },
+        { "type": "fade_out", "duration": 0.5 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# Ambiente e cache do Python
+.venv/
+__pycache__/
+*.pyc
+
+# Imagens da câmera e dados pessoais (rosto, modelos treinados, estado do app)
+recordings/
+replays/
+custom/
+
+# Vídeos de terceiros (templates do CapCut e o vídeo de inspiração)
+capcut_video/
+
+# Gerados ou baixados pelo próprio app
+cache/
+models/
+videos/
+sounds/
+green_slots/
